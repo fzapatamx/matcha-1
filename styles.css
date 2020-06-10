@@ -129,6 +129,14 @@ body {
 
 .publish {
   flex: 1;
+  padding: 20px;
+}
+
+.publish .email-adjust {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .promo {
