@@ -1,11 +1,23 @@
-h1 {
+
+body {
+  background-color: #fffbf7;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  margin-top: 130px;
+}
+
+.main h1 {
   color: #025157;
   font-weight: bold;
   text-align: center;
+  font-size: 52px;
 }
 
 
-form {
+.main form {
   text-align: center;
 }
 
@@ -15,17 +27,11 @@ form {
   color: #46484c;
 }
 
-button {
+.main button {
   color: #fff;
   background-color: #025157;
 }
 
-
-body {
-  background-color: #fffbf7;
-  margin: 0px;
-  padding: 0px;
-}
 
 .header {
   font-size: 0px;
@@ -53,7 +59,7 @@ body {
   color: #025157;
 }
 
-.action {
+.actions {
   width: 15%;
   text-align: right;
   font-size: 14px;
@@ -65,15 +71,15 @@ body {
   color: #025157;
 }
 
-.action > * {
+.actions > * {
   margin: 0 10px;
 }
 
-.action a {
+.actions a {
   color: #67b54b
 }
 
-.action button {
+.actions button {
   color: #fff;
   background-color: #67b54b;
   padding: 12px 14px;
