@@ -249,3 +249,23 @@ main {
   margin-top: 0;
   height: 100%;
 }
+
+
+@media (max-width: 425px) {
+  .navbar,
+  .actions {
+    display: none;
+  }
+
+  .main h1 {
+    font-size: 2rem;
+  }
+
+  .fixed-header .header .logo {
+    padding: 0 0 0 15px;
+  }
+
+  .banner > img {
+    width: 100%;
+  }
+}
